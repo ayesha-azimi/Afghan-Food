@@ -1,0 +1,125 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #fdf8f3;
+    color: #3a2d24;
+    line-height: 1.6;
+  }
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  header {
+    background-color: #5b0f0f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease;
+    padding-bottom: 4px;
+  }
+    nav ul li a:hover,
+  nav ul li a.active {
+    border-bottom: 2px solid #fff;
+  }
+  .welcome {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 2px solid  #892424;
+  }
+  .welcome h2 {
+    color: #5b0f0f;
+    margin-bottom: 10px;
+  }
+  .az{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(123, 46, 46, 0.2);
+    margin-top: 20px;
+  }
+    .featured img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  
+  }
+  .picture-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .picture-content h3 {
+    color:#5b0f0f;
+    margin-bottom: 10px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #5b0f0f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    background-color:  #a94438;
+  }
+  .categories {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .categories h2 {
+    color: #5b0f0f;
+    margin-bottom: 20px;
+  }
+  .cat-btn {
+    background-color: #5b0f0f;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .cat-btn:hover {
+    background-color:  #a94438;
+  }
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color:  #5b0f0f;
+    color: white;
+    font-size: 0.9em;
+  }
